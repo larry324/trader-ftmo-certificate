@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates | FTMO</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: rgb(241, 240, 240);
+            z-index: 2;
+        }
+
+        
+        .nav{
+            width: 100vw;
+            height: 80px;
+            background-color: rgb(39, 37, 37);
+            position: sticky;
+            top: 0px;
+            z-index: 5;
+        }
+
+        .ft{
+            color: white;
+            display: inline;
+            font-size: 50px;
+            float: right;
+            position: absolute;
+            top: 8px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* background-color: red; */
+        }
+
+        .fav{
+            border-radius: 50%;
+            display: inline;
+            margin-left: 35px;
+            margin-top: 15px;
+        }
+
+        li{
+            display: inline;
+        }
+
+        .tra{
+            text-decoration: none;
+            color: black;
+        }
+        .tra:hover{
+            color: blue;
+        }
+
+        .info{
+            display: block;
+            width: 80vw;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            margin-bottom: 50px;
+        }
+
+        .love{
+            color: red;
+        }
+
+        .test{
+            color: grey;
+        }
+
+        .test, .trader{
+            font-size: 16px;
+            text-align: center;
+            display: block;
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .space{
+            width: 88vw;
+            margin: auto;
+        }
+
+        .mark{
+            border-radius: 3px;
+            margin: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .verify{
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 19px;
+            text-align: center;
+        }
+
+        .cert{
+            border: 3px solid rgb(44, 190, 183);
+            background-color: rgb(193, 231, 231);
+            padding: 25px;
+            border-radius: 8px;
+            margin: auto;
+        }
+
+        .breadcrumb{
+            margin-bottom: 10px;
+        }
+
+        .check{
+            border: 3px solid grey;
+            border-radius: 5px;
+            font-size: 17px;
+            padding: 20px;
+            display: block;
+            text-align: center;
+            margin: 30px 0px 30px 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .box{
+            border: 1px solid white;
+            background-color: white;
+            /* margin: auto; */
+            box-shadow: 1px 1px 10px grey, -1px -1px 10px rgb(163, 162, 162) ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .adrif{
+            display: block;
+            margin: auto;
+            display: inline;
+        }
+
+        .start{
+            margin-bottom: 40px;
+            height: 120px;
+            border: 3px solid rgb(41, 129, 201);
+            border-radius: 6px;
+            text-align: center;
+            display: block ;
+            background-color: rgb(160, 214, 218);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .button{
+            margin-top: 10px;
+            display: inline;
+            background-color: rgb(41, 129, 201);
+            padding: 13px;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        .are{
+            margin: 15px 0px 30px 0px;
+        }
+
+        .links{
+            display: flex;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .tem, .pr{
+            padding: 10px;
+            color: black;
+        }
+       
+
+    </style>
+
+    <link rel="icon" type="image/x-icon" href="favicon-32.png">
+</head>
+<body>
+    <nav class="nav">
+        <ul >
+            <li><img src="favicon-32.png" alt="" width="50px" height="50px" class="fav"></li>
+            <li><p class="ft">FTMO</p></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="breadcrumb">
+            
+            <li class="trader" ><a href="https://trader.ftmo.com/client-area" class="tra" target="_blank">Trader</a></li>
+            <li class="test active"> Certificates   </li>
+        </ul>
+    </nav>
+
+    <ul class="space">
+        <li>
+            <div class="cert">
+                <img src="mark.jpg" alt="" width="60px" height="60px" class="mark">
+                <p class="verify">Certificate is verified by ftmo</p>
+            </div>
+        </li>
+
+
+        <li class="check">
+            <p>Check the name on your certificate to make sure it's the one you verified with QR</p>
+        </li>
+
+
+        <li>
+            <div class="box">
+                <img src="adriftmo.jpg" alt="" width="90%" height="250px" class="adrif">
+            </div>
+        </li>
+
+
+        <li>
+            <div class="start">
+                <p class="are">Are you ready to become the FTMO Trader?</p>
+                <a href="https://trader.ftmo.com/client-area">
+                    <div class="button">
+                        Start FTMO Challenge
+                    </div> 
+                </a>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="links">
+                <a href="https://ftmo.com/en/privacy-policy/" class="pr">Privacy Policy</a>
+                <a href="https://ftmo.com/en/privacy-policy/" class="tem">Terms & Conditions</a>
+            </div>
+        </li>
+
+
+
+        <li class="info">
+            All information provided on this site is intended solely for the study purposes related to trading on financial 
+            markets and does not serve in any way as a specific investment recommendation, business recommendation, 
+            investment opportunity analysis or similar general recommendation regarding the trading of investment instruments. 
+            Trading in financial markets is a high-risk activity and it is advised not to risk more than one can afford to 
+            lose! FTMO Evaluation Global s.r.o./FTMO Evaluation US s.r.o., legal address: Purkynova 2121/3, Prague, 11000, 
+            Czech Republic, does not provide any of the investment services listed in the Capital Market Undertakings 
+            Act No. 256/2004 Coll. The information on this site is not directed at residents in any country or jurisdiction 
+            where such distribution or use would be contrary to local laws or regulations. FTMO Evaluation Global s.r.o./FTMO 
+            Evaluation US s.r.o. and FTMO s.r.o., legal address: Purkynova 3, Prague, 11000, Czech Republic are not a broker 
+            and do not accept deposits. The offered technical solution for the FTMO platforms and data feed is powered by the 
+            institutional liquidity providers.
+
+            <p>2023 © Copyright - FTMO.com Made with <span class="love">❤ </span> for trading.</p> 
+            <small>Version: cf07c7</small> 
+        </li>
+    </ul>
+</body>
+</html>
